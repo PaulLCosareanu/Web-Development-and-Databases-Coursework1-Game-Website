@@ -1,0 +1,61 @@
+/* BODY STYLE margin */
+body{
+ margin:0;
+
+
+
+}
+
+
+/* //FOOTER STYLE */
+
+.footerstyle{
+    margin-bottom: 0px;
+    background-color: green;
+    color: white;
+    display: block;
+    bottom: 0;
+    width: 100%;
+    float: left;
+    
+}
+
+
+
+
+
+/* //FOOTER SOCIAL MEDIA ICONS POSITION*/
+
+.footericons{
+    
+    float:right;
+    margin-right:10%;
+}
+
+
+
+/* copyright text container plus text characteristics */
+.copyright{
+
+    float: right;
+    text-align: center;
+    margin-top: 42px;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+}
+
+/* container footer logo */
+.containerfooterlogocopy{
+
+  width: 50%;
+  text-align: center;
+  height: 160px;
+  float: right;
+
+}
+
+
+
+
+
+

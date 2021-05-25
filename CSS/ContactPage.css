@@ -1,0 +1,191 @@
+/*Contact Page Background Image Banner Container size and position */
+
+.backgroundimagecontact{
+	width:100%;
+	float:left;
+	margin-left:0px;
+	height:450px;
+	/* background:lightblue; */
+	
+}
+
+/* Image withing the Image Banner Container*/
+
+.backgroundimagecontact img{
+	
+	width:100%;
+	height:100%;
+	
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Container properties for the Contact container. Elements of the container: phonecontainer and emailcontainer */
+
+.contactcontainer{
+	width: 100%;
+    /* background: pink; */
+    height: 450px;
+    float: left;
+    /* margin-top: -60px; */
+    position: relative;
+    top: -60px;
+	
+}
+
+
+/*Properties of the phone container like size and position, margin and background color  */
+
+.phonecontainer {
+    width: 35%;
+    height: 100%;
+    margin-left: 10%;
+    background: lightcyan;
+    float: left;
+    border: solid black 1px;
+}
+
+
+/*Properties of the email container like size and position, margin and background color  */
+
+.emailcontainer {
+    height: 100%;
+    width: 35%;
+    margin-right: 10%;
+    background: lightcyan;
+    float: right;
+    border: solid black 1px;
+}
+
+
+/* phone container title */
+
+.phonetitlecontact {
+    float: left;
+    width: 100%;
+    height: 20%;
+    background: lightcyan;
+    text-align: center;
+	color:grey;
+}
+
+
+/* email container title plus text style */
+
+.emailtitlecontact {
+    float: left;
+    width: 100%;
+    height: 20%;
+    background: lightcyan;
+}
+
+
+.emailtitlecontact h1{
+	
+	text-align:center;
+	color:grey;
+}
+
+
+/* phoneimage is the container of the actual phone icon image */
+
+.phoneimage {
+    width: 20%;
+    height: 25%;
+    /* margin-top: 5%; */
+    margin-left: 40%;
+    float: left;
+}
+
+/* size of the phone icon image within the container */
+
+.phoneimage img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* emailimage is the container of the actual email icon image */
+
+.emailimage{
+	width: 20%;
+    height: 25%;
+    /* margin-top: 5%; */
+    margin-left: 40%;
+    float: left;
+
+}
+
+/* size of the email icon within the container */
+
+.emailimage img{
+	 width: 100%;
+    height: 100%;
+	
+}
+
+
+/* text container part plus attributes of the text in the phonecontainer */
+
+.phonenumber{
+	height:55%;
+	width:100%;
+	float:left;
+	color:grey;
+	text-align:center;
+}
+.phonenumber h1{
+	
+	text-align:center;
+	color:darkgrey;
+}
+
+
+/* text container part plus attributes of the text in the emailcontainer */
+
+.email{
+	height:55%;
+	width:100%;
+	float:left;
+	color:grey;
+	text-align:center;
+}
+.email h1{
+	text-align:center;
+	color:darkgrey;
+}
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* google maps plus text on the right container */
+
+.mapscontainer {
+    width: 50%;
+    float: left;
+    margin-left: 25%;
+    border: solid black 1px;
+    height:600px;
+    margin-bottom:5%;
+}
+
+/* text from the maps container style */
+
+	.textmaps{
+		
+		width:40%%;
+		height:100%;
+		text-align:center;
+		color:lightgray;
+		float:left;
+		margin:5%
+		
+		
+		
+	}
+	.textmaps h1{
+		
+		color:grey;
+		
+	}

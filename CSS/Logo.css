@@ -1,0 +1,31 @@
+/* logo container */
+.logo{
+    width:15%;
+    left:0;
+    color:white;
+    margin-left:10%;
+    float:left;
+}
+    
+
+    /* image within the logo container */
+.logo img{
+    width:230px;
+}
+
+
+/* logo footer container */
+.logofooter{
+
+    float: right;
+    margin-top: 35px;
+    margin-right: 35%;
+     
+
+}
+    /* image within logo container in footer */
+.logofooter img{
+
+    width:230px;
+
+}

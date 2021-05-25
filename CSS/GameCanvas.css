@@ -1,0 +1,35 @@
+/* the canvas where the game is gonna be created */
+canvas{
+	
+	/* width:880px; */
+	margin-left:10%;
+	/* height:720px; */
+	border:solid black 1px;
+    float:left;
+    margin-bottom: 5%;
+    margin-top:5%;
+    background-image:url(/Coursework1PaulLucianCosareanu/Images/bg.gif); display: block; ;
+	
+}
+
+
+/* container for the text describing the game */
+
+.Gametextcontainer{
+
+    float:left;
+    width:80%;
+    margin-bottom:5%;
+    margin-left:10%;
+}
+
+.Gametextcontainer h1{
+
+    text-align: center;
+}
+
+.Gametextcontainer h3{
+
+    font-size:30px;
+    text-align:justify;
+}

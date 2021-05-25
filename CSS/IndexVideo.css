@@ -1,0 +1,60 @@
+/* //video container size and position */
+.video{
+    
+   margin-top: 10%;
+   
+    
+}
+
+/* //youtube video size */
+.video iframe {
+    width: 90%;
+    height: 415px;
+}
+
+/* container in which the yt video and text uder it is situated */
+.contentcontainer{
+	display: block;
+    height: 100vh;
+    text-align: center;
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+}
+
+/* text characteristics of the container */
+.contentcontainer h3{
+
+    color:black;
+    text-align: justify;
+    font-size: 30px;
+}
+/* text container situated on the right of the video */
+.textcontainer{
+
+    display:block;
+    height:100vh;
+    width:40%;
+    margin-right:10%;
+    float:right;
+    margin-top:2%;
+
+}
+/* text characteristics in the text container */
+.textcontainer h3{
+    color:black;
+    text-align: justify;
+    font-size:25px;
+
+
+}
+/* main container in which the content of the index page is situated */
+.indexcontentcontainer{
+
+    width:100%;
+    height:100vh;
+    display:block;
+
+
+}
+

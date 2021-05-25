@@ -1,0 +1,11 @@
+/* list of contacts situated in the footer characteristics */
+.listofcontact{
+    float:left;
+    margin-left:10%;
+    
+    }
+    
+.listofcontact ul{
+    line-height:0%;
+    float: left;
+}

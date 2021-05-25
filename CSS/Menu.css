@@ -1,0 +1,115 @@
+.MarginHomeButton{
+
+    /* empty for now, will be used in the future */
+    
+}
+    /* changes color of the button text when home button is selected, reason for this class is for future purpose if developer chooses to */
+.SelectedMarginHomeButton{
+    -webkit-text-fill-color:black;
+    
+    
+    }
+    /* test is the size of the icons in the menu */
+.test{
+    width:20px;
+    height:20px;
+       
+}
+    /* menu container which hold everything includin the logo */
+.containermenu{
+    width:100%;
+    background-color:green;
+    float:left;
+    position:fixed;
+    z-index: 1;
+            
+           
+}
+    /* menu container specifically holding only the buttons */
+.menu{
+    float: right;
+    margin-top: 12px;
+    margin-right: 10%;
+    
+        
+        
+}
+    /* color change of the buttons when the mouse hoverss over them */
+.menu a:hover{
+        
+    color: black;
+    
+}
+    /* menu buttons traits */
+.menu a{
+  float:left;
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:20px;
+}
+    /* when a menu button is selected the text color changes  */
+.selected {
+       
+  -webkit-text-fill-color: black;
+    
+    
+}
+/* container created to float divs easier */
+.dummycontainermenu{
+    width:100%;
+    background-color:green;
+    float:left;
+}
+
+
+    /* Dropdown */
+    /* Dropdown Button */
+.dropbtn {
+    background-color: green;
+    color: white;
+    padding: 14px 16px;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: green;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+  /* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+}
+  
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: green;}
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the color of the dropdown button text when the dropdown content is shown */
+.dropdown:hover .dropbtn {color: white;}
+  
